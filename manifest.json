@@ -14,17 +14,10 @@
                 "unit": "Minutes"   
             },
             "cpu_per_task": {
-                "max": 50,
-                "min": 10,
-                "default_value": 10,
-                "step": 10
-            },
-            "memory_per_cpu": {
-                "max": 2000,
-                "min": 1000,
-                "default_value": 1000,
-                "step": 200,
-                "unit": "MB"
+                "max": 128,
+                "min": 16,
+                "default_value": 16,
+                "step": 16
             }
     },
     "param_rules": {
